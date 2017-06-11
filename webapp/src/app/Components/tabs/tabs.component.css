@@ -1,0 +1,13 @@
+/deep/ .mat-tab-labels{
+    background-color: #00bcd4;
+    color:#ffffff;      
+}
+/deep/ .mat-tab-label{
+    color:#ffffff;      
+    opacity : 1;
+}
+
+/deep/ .mat-tab-body{
+    overflow-y: hidden !important;
+}   
+

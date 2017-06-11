@@ -1,0 +1,22 @@
+.example-card{
+    background-color: #99d6ff;
+    width: 200px;
+    float: left;
+    margin:0 10px;
+    cursor: pointer !important; 
+}
+
+.example-card:hover { 
+    background-color:#00bcd4;
+}
+
+.dashboard-title{
+    font-size: x-large;
+    margin : 12px;
+    text-align: center;
+}
+
+.cardgird-div{
+   overflow-y: scroll;
+   height: 450px;
+}

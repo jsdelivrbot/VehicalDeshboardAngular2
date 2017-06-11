@@ -1,0 +1,36 @@
+{
+    "vehicle" : [
+      {
+          "cmpName" : "Maruti Suzuki",
+          "modelName" : "Vitara Brezza",
+          
+          "info" : "Brand new Compact SUV from Maruti Suzuki featuring a DDiS 200 engine delivering an extremely high fuel efficiency of 24.3 km/l."
+      },
+      {
+          "cmpName" : "Maruti Suzuki",
+          "modelName" : "Swift Dzire",
+          
+          "info" : "Brand new Compact SUV from Maruti Suzuki featuring a DDiS 200 engine delivering an extremely high fuel efficiency of 24.3 km/l."
+      },
+      {
+          "cmpName" : "Maruti Suzuki",
+          "modelName" : "WagonR",
+          "info" : "Brand new Compact SUV from Maruti Suzuki featuring a DDiS 200 engine delivering an extremely high fuel efficiency of 24.3 km/l."
+      },
+      {
+          "cmpName" : "Maruti Suzuki",
+          "modelName" : "Scross",
+          "info" : "Brand new Compact SUV from Maruti Suzuki featuring a DDiS 200 engine delivering an extremely high fuel efficiency of 24.3 km/l."
+      },
+      {
+          "cmpName" : "Maruti Suzuki",
+          "modelName" : "Zen",
+          "info" : "Brand new Compact SUV from Maruti Suzuki featuring a DDiS 200 engine delivering an extremely high fuel efficiency of 24.3 km/l."
+      },
+      {
+          "cmpName" : "Maruti Suzuki",
+          "modelName" : "Alto",
+          "info" : "Brand new Compact SUV from Maruti Suzuki featuring a DDiS 200 engine delivering an extremely high fuel efficiency of 24.3 km/l."
+      }
+      ]
+}

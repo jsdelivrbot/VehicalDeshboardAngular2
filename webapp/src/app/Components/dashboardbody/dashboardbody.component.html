@@ -1,0 +1,59 @@
+<span><p class="dashboard-title">Top Vehicals Pallette</p></span>  
+
+<div class="cardgird-div">
+  
+  <md-grid-list cols="5" rowHeight="220px" >
+    <md-grid-tile *ngFor="let vehicle of vehicles" >
+      <md-card class="example-card" (click)="doSomething()">
+        <md-card-header>
+          <md-card-title>{{vehicle.cmpName}}</md-card-title>
+          <md-card-subtitle>
+              {{vehicle.modelName}}
+          </md-card-subtitle>
+        </md-card-header>
+        <md-card-content>
+            {{vehicle.info}}
+        </md-card-content>
+      </md-card>
+    </md-grid-tile>
+
+    <!--<md-grid-tile>
+      <md-card class="example-card">
+        <md-card-header>
+          <md-card-title>Hyndai</md-card-title>
+          <md-card-subtitle>Creta</md-card-subtitle>
+        </md-card-header>
+        <md-card-content>
+            Brand new Compact SUV from Maruti Suzuki featuring a DDiS 200 engine delivering an 
+            extremely high fuel efficiency of 24.3 km/l.
+        </md-card-content>
+      </md-card>
+    </md-grid-tile>
+
+    <md-grid-tile>
+      <md-card class="example-card">
+        <md-card-header>
+          <md-card-title>Maruti Suzuki</md-card-title>
+          <md-card-subtitle>Vitara Brezza</md-card-subtitle>
+        </md-card-header>
+        <md-card-content>
+            Brand new Compact SUV from Maruti Suzuki featuring a DDiS 200 engine delivering an 
+            extremely high fuel efficiency of 24.3 km/l.
+        </md-card-content>
+      </md-card>
+    </md-grid-tile>
+
+    <md-grid-tile>
+      <md-card class="example-card">
+        <md-card-header>
+          <md-card-title>Hyndai</md-card-title>
+          <md-card-subtitle>Creta</md-card-subtitle>
+        </md-card-header>
+        <md-card-content>
+            Brand new Compact SUV from Maruti Suzuki featuring a DDiS 200 engine delivering an 
+            extremely high fuel efficiency of 24.3 km/l.
+        </md-card-content>
+      </md-card>
+    </md-grid-tile>-->
+  </md-grid-list>
+</div>
